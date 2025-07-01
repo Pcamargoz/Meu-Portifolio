@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Cesar Camargo dos Santos | Desenvolvedor Backend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cursor"></div>
+    <canvas id="bg-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="logo">P.</div>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#career">Jornada</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="hero-image-container">
+                    <!-- Coloque a foto do seu perfil do GitHub aqui (substitua o src pelo caminho da imagem!) -->
+                    <!-- Exemplo: <img src="images/github-profile.jpg" alt="Foto de Perfil do GitHub"> -->
+                    <div class="hero-image-placeholder">
+                        <img src="images/Foto para documentos.jpg" alt="Young man with short dark hair wearing a white t-shirt with red text, standing against a plain light background, holding up his right hand in a relaxed gesture, casual and confident atmosphere">
+                        <span>P</span>
+                    </div>
+                </div>
+                <h1 class="hero-title">Pedro Cesar Camargo dos Santos</h1>
+                <p class="hero-subtitle">Backend Developer & Tech Innovator</p>
+                <div class="hero-links">
+                    <a href="https://www.linkedin.com/in/pedro-cesar-camargo/" target="_blank" class="cta-button">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/pedro-cesar-camargo" target="_blank" class="cta-button secondary">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">🧬 Minha História</h2>
+                <div class="about-content">
+                    <p>Desde muito jovem, fui movido por um desejo inquieto de evoluir. Meu nome é Pedro Cesar Camargo dos Santos, e minha jornada tem sido marcada por escolhas conscientes, aprendizado constante e um compromisso inabalável com o crescimento pessoal e profissional.</p>
+                    <p>Enquanto muitos da minha idade ainda buscavam um rumo, eu já havia descoberto que o conhecimento seria a chave para o futuro que eu sonhava: construir uma carreira sólida em tecnologia e conquistar uma oportunidade de trabalho no exterior. O primeiro passo foi um curso de 1.5 anos em Inglês Básico e Informática Avançada na Escola Nippo, onde fundei a base para minhas habilidades técnicas.</p>
+                    <p>O tempo passou, e a busca por conhecimento nunca cessou. Concluí cursos de Implantação de Serviços em Nuvem, Blockchain e Empreendedorismo no SENAI Sorocaba, e conquistei mais de 100 certificações na plataforma DIO, com foco em linguagens de programação, cloud computing, inteligência artificial, cibersegurança e desenvolvimento de software.</p>
+                    <p>Hoje, curso Análise e Desenvolvimento de Sistemas no Centro Universitário Facens — a principal faculdade de tecnologia da região de Sorocaba. Fui eleito representante do maior curso da instituição, com mais de 1.200 alunos. Essa função fortaleceu minha comunicação, liderança e organização, além de me aproximar do ecossistema tecnológico e acadêmico.</p>
+                    <p>Também lidero o Grupo 01 na disciplina de Projeto UPX, que desafia os alunos a desenvolver soluções com foco em startups, sustentabilidade e tecnologia para problemas reais. Essa experiência prática me ensinou a liderar, gerenciar prazos e apresentar resultados de forma eficaz.</p>
+                    <p>Uma das minhas maiores conquistas foi ser selecionado para o Bootcamp Santander Fullstack Developer após um processo seletivo concorrido. A bolsa que recebi me permite aprofundar em desenvolvimento Java Backend e Frontend, com foco em soluções enterprise.</p>
+                    <p>Minha trajetória é movida por disciplina, foco e uma vontade incansável de crescer. Encaro cada desafio como uma chance de ir além e entregar resultados. Estou pronto para o próximo grande passo: agregar valor a uma empresa que acredita no meu potencial.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="section-title">Áreas de Foco Técnico</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                <div class="skill-card"><i class="fa-solid fa-leaf"></i><span>Spring Boot</span></div>
+                <div class="skill-card"><i class="fa-solid fa-arrows-left-right-to-line"></i><span>RESTful APIs</span></div>
+                <div class="skill-card"><i class="fa-solid fa-server"></i><span>Backend Development</span></div>
+                <div class="skill-card"><i class="fa-solid fa-shield-halved"></i><span>Cybersecurity</span></div>
+                <div class="skill-card"><i class="fa-brands fa-git-alt"></i><span>Git / GitHub</span></div>
+                <div class="skill-card"><i class="fa-solid fa-cloud"></i><span>Cloud Computing</span></div>
+                <div class="skill-card"><i class="fa-solid fa-sitemap"></i><span>Software Architecture</span></div>
+                <div class="skill-card"><i class="fa-solid fa-infinity"></i><span>DevOps</span></div>
+                <div class="skill-card"><i class="fa-solid fa-people-group"></i><span>Agile Methodologies</span></div>
+            </div>
+        </section>
+
+        <!-- NOVA SEÇÃO PROJETOS & FOTO -->
+        <section class="projects" id="projects">
+            <div class="projects-profile-section">
+                <!-- Coloque a nova foto aqui (substitua o src pelo caminho da imagem!) -->
+                <!-- Exemplo: <img src="images/projeto-perfil.jpg" alt="Foto do grupo/projeto"> -->
+                <div class="project-profile-image-placeholder">
+                    <img src="images/Imagem-Estudos.jpg" alt="Foto de Perfil do GitHub">
+                </div>
+                <div class="projects-intro-text">
+                    <p>Venha conhecer meus projetos!</p>
+                    <a href="https://pcamargoz.github.io/Website-linksupx/" target="_blank" class="cta-button">
+                        <i class="fa-solid fa-link"></i> Acesse o site do meu grupo acadêmico
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- FIM DA NOVA SEÇÃO -->
+
+        <section class="career" id="career">
+             <div class="container">
+                <h2 class="section-title">🎓 Expectativas de Carreira</h2>
+                <p>Estudar Análise e Desenvolvimento de Sistemas na FACENS significa muito mais do que obter um diploma — é um passo crucial em direção ao meu objetivo de vida de trabalhar com tecnologia de ponta e, eventualmente, conquistar uma vaga em uma empresa de tecnologia global.</p>
+                <p>Espero que minha formação me dê uma base técnica sólida nas áreas-chave de TI, especialmente em desenvolvimento backend, arquitetura de sistemas, bancos de dados, cloud computing e cibersegurança — campos pelos quais sou apaixonado há anos. Almejo também dominar metodologias ágeis, práticas DevOps e técnicas de versionamento/documentação.</p>
+                <p>Estou empenhado em trabalhar em projetos do mundo real e enfrentar desafios que me levem a pensar de forma criativa, colaborar e entregar soluções eficientes e de alta qualidade. Um exemplo disso é meu envolvimento no projeto de startup UPX, onde lidero minha equipe em busca de uma solução de base tecnológica com impacto social e ambiental.</p>
+                <p>Esta graduação é também minha preparação estratégica para ingressar no mercado de trabalho — começando com estágios em desenvolvimento backend ou engenharia de software, e eventualmente evoluindo para uma carreira tecnológica global. Aproveito ao máximo cada oportunidade de aprendizado, incluindo bootcamps, projetos paralelos e estudos autodirigidos.</p>
+
+                <h2 class="section-title secondary">🚀 Onde Quero Chegar</h2>
+                <p>Meu objetivo final é construir uma carreira sólida em Tecnologia da Informação. Quero começar como desenvolvedor backend e, eventualmente, evoluir para cargos de maior nível, como arquiteto de software ou engenheiro de soluções em nuvem. Sonho em trabalhar para empresas de tecnologia globais e fazer parte de ambientes multiculturais e de alta performance.</p>
+                <p>No futuro, me vejo como um profissional respeitado, conhecido por sua expertise técnica, mentalidade colaborativa e capacidade de entregar valor real. Quero contribuir para projetos que impactam milhares de pessoas, desenvolvendo soluções inteligentes, escaláveis e seguras.</p>
+                <p>Além do lado técnico, quero continuar aprimorando minhas habilidades de comunicação e liderança — que já venho praticando como representante estudantil e líder de equipe. Aspiro inspirar outros, contribuir para o sucesso da minha equipe e fazer parte de algo maior.</p>
+                <p>Para chegar a esse objetivo, minha estratégia é clara:</p>
+                <ul class="strategy-list">
+                    <li>Continuar aprendendo através de plataformas como a DIO (onde concluí mais de 100 cursos).</li>
+                    <li>Participar de programas de capacitação corporativos como o Bootcamp Santander.</li>
+                    <li>Engajar-me em projetos reais, acadêmicos e pessoais para aplicar o que aprendo.</li>
+                    <li>Garantir um estágio em tecnologia para ganhar experiência profissional e construir uma base sólida para minha carreira.</li>
+                </ul>
+                <p>Acredito que a oportunidade certa, na empresa certa, será o próximo marco nesta jornada. Estou pronto para dar o meu melhor, crescer junto com a organização e me tornar um profissional de tecnologia global de destaque.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Criado por Pedro Cesar Camargo dos Santos</p>
+        <div class="footer-links">
+             <a href="https://www.linkedin.com/in/pedro-carmargo01/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="https://github.com/Pcamargoz" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
